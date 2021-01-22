@@ -1,0 +1,336 @@
+*{margin:0;padding: 0;}
+
+body {
+font-family: 'Open Sans', sans-serif;
+color: #000000;}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+footer{
+  background-color: #EDC6F4;
+  height: 56px;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;}
+
+.nom{margin-right: 200px; font-size: 20px; margin-top: 20px; margin-left: 10px;font-size: 20px;}
+.adresse{margin-right: 350px; font-size: 12px;margin-top: 20px;}
+.insta{;margin-top: 13px;margin-right: 10px}
+.fb{margin-top: 15px; margin-right: 30px}
+
+.header {
+background-color: #EDC6F4;
+height: 46px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+top: 0;
+}
+
+.titreactualités{margin-left: 300Px;}
+
+/* Page d'accueil
+*/
+
+.content_heading{
+  display: inline-flex;
+  position: relative;}
+
+.text{
+  text-align: center;}
+
+.content_heading .text {
+    position: absolute;
+    text-align: right;
+    text-align-last: center;
+    font-family: 'Open Sans';
+    margin-right: 45px;
+    left: 250;
+    right: 0;
+    top: 40%;
+    color: white;
+  }
+
+.texte{
+  font-family: 'Amatic SC', cursive;
+  font-size: 700;
+  text-align: left;
+}
+
+.content_Quelquesproduits{
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+
+.logoss{
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+.bouton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/*Page actualités
+*/
+.content_Titre{
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 200;
+  text-align: left;
+margin-top: 80px;}
+
+.content_spécialités{
+font-size: 23px;
+text-align: center;
+margin-top: 90px;
+}
+
+.trait_1 {
+width: 600px;
+}
+
+.halloween{
+  width: 400px;
+float: left;
+margin-top: 100px;
+margin-left: 180px;
+justify-content: center;
+}
+.noel{
+  width: 300px;
+  float: right;
+  margin-right: 230px;
+  margin-top: 170px;
+  justify-content: center;
+}
+.citrouille{
+  width: 300px;
+  border-radius: 70px;
+  align-content: left;
+  margin-top: 100px;
+  margin-left: 230px;
+  justify-content: center;
+}
+.trait_2 {
+width: 600px;
+margin-bottom: 60px;
+}
+.content_pains{
+  text-align: center;
+  margin-top: 100px;
+}
+.pain{
+  width: 300px;
+  border-radius: 60px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.painschocolat{
+  width: 300px;
+  margin-bottom: 90px;
+  margin-left: 40px;
+  justify-content: center;
+}
+.trait_3{
+  width: 600px;
+  margin-bottom: 40px;
+}
+.content_orange{
+  text-align: center;
+  margin-top: 30px;
+}
+.orange{
+  width: 300px;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+
+/*Nos Produits
+*/
+
+.titre1{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 60px;
+  margin-top: 60px;
+text-align: center;
+
+}
+.titre2{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 60px;
+    margin-top: 60px;
+  text-align: center;
+}
+.titre3{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 60px;
+    margin-top: 60px;
+  text-align: center;
+}
+.titre4{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 60px;
+    margin-top: 60px;
+  text-align: center;
+}
+.titre5{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 60px;
+    margin-top: 60px;
+  text-align: center;
+}
+.titre6{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 60px;
+    margin-top: 60px;
+  text-align: center;
+}
+
+/*Nos produits- 1*/
+.clementine{border-radius: 60px;
+margin-left: 300px;justify-content: center;}
+.courge{margin-left: 120px;justify-content: center;}
+.poireaux{margin-top: 30px;margin-left: 40px;justify-content: center;}
+.poires{border-radius: 60px;margin-left: 130px;}
+.pommes{margin-left: 110px;}
+.saladeverte{border-radius: 60px; margin-top: 15px;margin-left: 40px}
+.salade{margin-top: 15px;margin-left: 130px;}
+.tomates{border-radius: 60px; margin-top: 15px;margin-left: 110px;}
+/*Nos produits- 2*/
+.faisselle{margin-left: 80px;}
+.fruits{border-radius: 60px;margin-left: 150px;}
+.lait{margin-left: 200px;}
+.pot{border-radius: 60px;margin-top: 30px;margin-left: 250px;}
+.savoie{margin-top: 30px;margin-left: 220px;}
+/*Nos produits- 3*/
+.coulommiers{margin-left: 60px;margin-right: 80px;}
+.fromages{border-radius: 60px; margin-left: 30px;}
+.noir{border-radius: 60px; margin-left: 60px;margin-right: 50px;}
+.tommebauges{margin-left: 50px; margin-left: 40px;}
+.tommeyenne{margin-top: 15px;margin-left: 50px}
+.tomme{border-radius: 60px;margin-top: 15px;margin-left: 130px;}
+.tommette{margin-top: 15px;margin-left: 110px;}
+/*Nos produits- 4*/
+.rayon{border-radius: 60px;margin-left: 20px;}
+.miam{margin-left: 100px;margin-bottom: 140px;}
+.paté3{margin-left: 40px; margin-bottom: 50px;}
+.poulet{margin-left: 30px; margin-bottom: 120px;}
+.poulet2{margin-left: 60px; margin-bottom: 60px;}
+.jambon{border-radius: 60px;margin-bottom: 190px;margin-left: 10px;}
+.viande{margin-bottom: 60px;margin-left: 10px;}
+.rayon2{border-radius: 60px; margin-left: 30px;}
+.rosette{margin-left: 10px;}
+.sachet{border-radius: 60px;margin-left: 10px;}
+.saucisse{border-radius: 60px; margin-left: 50px;}
+.saucisson{margin-left: 10px;}
+/*Nos produits- 5*/
+.graine{margin-left: 210px;margin-right: 80px; margin-top: 40px;}
+.paté2{margin-left: 120px;margin-bottom: 20px;}
+.paté{margin-left: 50px;}
+.paté4{margin-left: 50px;margin-bottom: 20px;}
+.paté5{border-radius: 60px; margin-left: 100px;}
+.soupe{border-radius: 60px; margin-bottom: 20px;margin-left: 150px;}
+/*Nos produits- 6*/
+.bouteille{margin-left: 130px;}
+.brioche{margin-left: 170px; margin-bottom: 50px;}
+.chocolat{border-radius: 60px; margin-left: 150px;}
+.confiture{border-radius: 60px; margin-bottom: 10px; margin-left: 10px;}
+.confiture2{margin-left: 20px;}
+.coulis{margin-left: 20px;}
+.miel{margin-left: 10px;}
+.graine{border-radius: 60px; margin-left: 160px;}
+.meringue{}
+.miam{}
+.pains{}
+.chocolat1{border-radius: 60px;margin-left: 100Px; margin-bottom: 50Px;}
+.sucre2{border-radius: 60px; margin-bottom: 50Px; margin-left: 70px;}
+.sucre{}
+.sucre4{margin-top:20px;}
+.miel2{margin-left: 240px;}
+
+/*A propos
+*/
+
+#block
+{
+width: 1000px;
+margin-left: 120px;
+border-radius: 60px;
+box-shadow: 10px 10px 10px purple;
+background: rgba(204, 146, 214, 0.21)
+}
+
+.content_Titre{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.content_paragraphe{
+  font-size: 60px;
+  text-align: center;
+  text-align-last: center;
+}
+
+/*Contact
+*/
+.colonne1{
+text-align: center;
+margin-left: 70px;
+margin-top: 60px;
+vertical-align: middle;
+}
+
+.heures{
+  margin-top: 80px;
+}
+
+.infos{
+  margin-top: 40px;
+}
+
+.colonne2{
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: auto;
+}
+
+.heuress{font-weight: bolder;}
+
+.contactinfos{font-weight: bolder;}
+
+.framemap {
+    width: 1247px;
+    height: 600px;
+    border: 0;
+    margin: auto;
+    display: block;
+.map{
+  width: 100%;
+  height: 100%;
+}
+
+/*Header en bas
+*/
